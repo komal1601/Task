@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    height: 100vh;
+    background: url('image.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.overlay {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.overlay h4 {
+    letter-spacing: 2px;
+    color: #ddd;
+}
+
+.overlay h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.info-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-item {
+    text-align: center;
+}
+
+.info-item p {
+    margin-bottom: 10px;
+}
+
+.info-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services-intro {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.service-image {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.service-content {
+    width: 50%;
+    text-align: left;
+}
+
+.service-content h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.service-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.read-more span {
+    margin-left: 10px;
+}
